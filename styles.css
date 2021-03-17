@@ -76,7 +76,6 @@ h2
 
 p
 {
-	align="center"
 	line-height:1.5em;
 	padding-bottom:1em;
 }
@@ -140,8 +139,6 @@ nav ul li a:hover
 nav, article, nav ul li a,figure
 {
 	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	border-radius:10px;
 }
 
 #page
@@ -172,8 +169,6 @@ figure
 
 figure:hover
 {
-	-moz-box-shadow:0 0 2px #4D7788;
-	-webkit-box-shadow:0 0 2px #4D7788;
 	box-shadow:0 0 2px #4D7788;
 }
 
