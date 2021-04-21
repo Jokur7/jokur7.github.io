@@ -282,3 +282,273 @@ table tr td:last-child
 	font-weight: bold;
 	text-align: center;
 	}
+/* nowe testy */
+*{
+	box-sizing: border-box;
+}
+
+#container{
+	width: 100%;
+}
+
+#welcome{
+	margin:20px;
+	font-size:25px;
+}
+
+.screen{
+	/*min-height: 250px;
+	max-height: 450px;
+	margin:10px;*/
+	background-color: #303030;
+	/*padding: 20px;
+	font-size: 20px;*/
+
+}
+
+#footer{
+	text-align: center;
+}
+.square{
+	/*min-width: 100%;
+	max-width: 100%;*/
+}
+.title{
+	width: 100%;
+	background-color: #536EA8;
+	margin:10px;
+	margin-left: 0px;
+	text-align: center;
+	vertical-align: middle;
+	font-size:20px;
+	height: 60px;
+	
+}
+.title2{
+	background-color: #EA9A28;
+	margin:10px;
+	margin-left: 0px;
+	text-align: center;
+	font-size: 15px;
+	padding: 20px;
+	line-height: 150%;
+	width:100%;
+	margin-top:20px;
+}
+.title3{
+	width: 100%;
+	text-align: center;
+	margin: 10px;
+	margin-left: 0px;
+	font-size: 30px; 
+}
+.title4{
+	float:left;
+	text-align: center;
+	min-width:42%;
+	max-width:42%;
+	min-height: 50px;
+	max-height: 50px;
+	background-color:#9B3E3E;
+	margin: 10px;
+	margin-left:12px;
+	font-size: 18px;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 50px;
+
+
+}
+.title4:hover{
+	background-color:#829747;
+}
+
+
+.player1{
+	float:left;
+	min-width: 42%;
+	max-width: 42%;
+	text-align: center;
+}
+
+.player2{
+	float:left;
+	min-width: 42%;
+	max-width: 42%;
+	text-align: center;
+	}
+.pkt{
+	float:left;
+}
+#podzial{
+	float:left;
+}
+h2{
+	font-size: 20px;
+}
+
+.game-board {
+    margin:auto;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+	min-width: 300px;
+	max-height: 250px;
+	max-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border-radius: 5px;
+    gap: 10px;
+    
+}
+
+.game-tile {
+    cursor: pointer;
+    background: #f6da17;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    transition: 0.4s background-color, 0.4s box-shadow;
+}
+
+.game-tile:hover {
+    background-color:#F7C11A;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+
+
+@media only screen and (min-width: 769px) {
+	
+#container{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#welcome{
+	margin:20px;
+	font-size:50px;
+	float:left;
+}
+.screen{
+	float:left;
+	/*min-height: 300px;
+	min-width: 500px;
+	max-height: 300px;
+	max-width: 500px;*/
+	margin:10px;
+	background-color: #33334d;
+	padding: 20px;
+	font-size: 20px;
+
+}
+
+#footer{
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+}
+.square{
+	/*min-width: 500px;
+	max-width: 500px;*/
+	float:left;
+}
+.title{
+	float:left;
+	width: 200px;
+	height: 100px;
+	background-color: #47476b;
+	margin:10px;
+	text-align: center;
+	font-size:20px;
+}
+.title2{
+	float:left;
+	background-color: #EA9A28;
+	margin:10px;
+	text-align: center;
+	font-size: 21px;
+	padding: 20px;
+	line-height: 150%;
+	width:420px;
+	margin-top:40px;
+}
+.title3{
+	width: 480px;
+	text-align: center;
+	margin: 10px;
+	font-size: 40px; 
+}
+.title4{
+	float:right;
+	text-align: center;
+	min-width:29%;
+	max-width:29%;
+	min-height: 50px;
+	max-height: 50px;
+	background-color:#9B3E3E;
+	margin: 10px;
+	font-size: 18px;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 50px;
+
+
+}
+.title4:hover{
+	background-color:#829747;
+}
+
+
+.player1{
+	float:left;
+	min-width: 214px;
+	max-width: 214px;
+}
+
+.player2{
+	float:left;
+	min-width: 214px;
+	max-width: 214px;
+	}
+.pkt{
+	float:left;
+}
+#podzial{
+	float:left;
+}
+
+.game-board {
+    margin:auto;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+	min-width: 450px;
+	max-height: 250px;
+	max-width: 450px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border-radius: 5px;
+    gap: 10px;
+    
+}
+
+.game-tile {
+    cursor: pointer;
+    background: #f6da17;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    transition: 0.4s background-color, 0.4s box-shadow;
+}
+
+.game-tile:hover {
+    background-color:#F7C11A;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+}
