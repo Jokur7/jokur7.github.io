@@ -138,7 +138,7 @@ nav ul li a:hover
 
 nav, article, nav ul li a,figure
 {
-	-moz-border-radius:10px;
+	/*-moz-border-radius:10px;*/
 }
 
 #page
